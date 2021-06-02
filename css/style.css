@@ -35,6 +35,18 @@ p{
     font-weight: 300;
     letter-spacing: .05rem;
 }
+.section-title{
+    font-size: 4rem;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 10px; 
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+.section-title span{
+    color: crimson;
+}
 #hero{
     background-image: url(../img/hero-bg.png);
     background-size: cover;
@@ -127,18 +139,7 @@ p{
     margin: 0 auto;
     padding: 100px 0;
 }
-#services .section-title{
-    font-size: 4rem;
-    font-weight: 300;
-    color: black;
-    margin-bottom: 10px; 
-    text-transform: uppercase;
-    letter-spacing: .2rem;
-    text-align: center;
-}
-#services .section-title span{
-    color: crimson;
-}
+
 
 #services .service-bottom{
     display: flex;
